@@ -1,6 +1,4 @@
 ﻿namespace BookStore.API.Contracts
 {
-    public class BooksResponce
-    {
-    }
+    public record BooksResponce (Guid Id, string Title, string Description, decimal Price);
 }
